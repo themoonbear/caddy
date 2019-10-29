@@ -13,4 +13,4 @@ EXPOSE 443
 
 VOLUME /vhosts
 
-ENTRYPOINT caddy -conf /etc/Caddyfile
+ENTRYPOINT caddy -agree -conf /etc/Caddyfile
